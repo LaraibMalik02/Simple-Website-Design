@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Dancing Script', cursive;
+}
+.hero{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background:url('https://source.unsplash.com/1600x900?water,sky');
+}
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding:20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    color:#521904;
+    font-size: 35px;
+}
+.logo span{
+    color: #ff4400;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    /* text-decoration: none; */
+}
+nav ul li a{
+    color: #ff6600;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: #521904;
+    background: #ff6600;
+    /* margin: 15px; */
+    padding: 15px;
+
+}
+.content{
+   margin-left: 12%;
+   margin-top: 13%;
+}
+.content h1{
+    font-size: 50px;
+    color: #521904;
+    margin-bottom: 20px;
+}
+.content h1 span{
+    color:#ff4400 ;
+}
+.content p{
+    font-size:  20px;;
+    font-family:serif;
+    /* line-height: 25px; */
+    font-weight: 200;
+    color: #f59767;
+}
+.content a{
+    background: #521904;
+    padding: 10px 18px;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    margin:30px 0;
+    border-radius: 5px;
+}
+.content a:hover{
+    color:#ffffff ;
+    background:#ff4400; 
+}
